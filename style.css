@@ -1,5 +1,6 @@
 :root {
     --blue: rgb(0, 113, 133);
+    --bluewhite: rgb(84, 179, 196);
     --green: rgb(0, 118, 0);
     --yellow: rgb(255, 216, 20);
     --yellowhite: rgb(253, 227, 96);
@@ -13,6 +14,10 @@
      cursor: pointer;
    }
    
+   .back:hover {
+    color: var(--bluewhite);
+   }
+
    #stock {
      font-size: 22px;
      font-weight: bold;
