@@ -2,7 +2,9 @@
     --blue: rgb(0, 113, 133);
     --green: rgb(0, 118, 0);
     --yellow: rgb(255, 216, 20);
+    --yellowhite: rgb(253, 227, 96);
     --orange: rgb(255, 164, 28);
+    --orangewhite: rgb(247, 173, 62);
    }
    
    .back {
@@ -37,6 +39,13 @@
      cursor: pointer;
    }
    
+   #buy:hover {
+    background-color: var(--orangewhite) ;
+   }
+   #cart:hover {
+    background-color: var(--yellowhite) ;
+   }
+
    #buy {
      margin-left: 8px;
      height: 40px;
