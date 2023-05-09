@@ -12,6 +12,7 @@
      color: var(--blue);
      font-size: 23px;
      cursor: pointer;
+     transition: opacity 150ms;
    }
    
    .back:hover {
@@ -46,17 +47,21 @@
      font-size: 16px;
      font-weight: 550;
      cursor: pointer;
-     transition: background-color 200ms, font-size 100ms, opacity 300ms;
+     transition: background-color 200ms, font-size 100ms, opacity 300ms, box-shadow 300ms;
+     
+     
    }
    
 
    #buy:hover {
     background-color: var(--orangewhite) ;
     font-size: 17px;
+    box-shadow: 0 3px 10px rgba(196, 173, 173, 0.507);
    }
    #cart:hover {
     background-color: var(--yellowhite) ;
     font-size: 17px;
+    box-shadow: 0 3px 10px rgba(196, 173, 173, 0.507);
    }
 
    #buy:active {
@@ -76,5 +81,5 @@
      font-size: 16px;
      font-weight: 550;
      cursor: pointer;
-     transition: background-color 200ms, font-size 100ms, opacity 300ms;
+     transition: background-color 200ms, font-size 100ms, opacity 300ms, box-shadow 300ms;
    }
