@@ -18,6 +18,10 @@
     color: var(--bluewhite);
    }
 
+   .back:active {
+    color: var(--blue);
+   }
+
    #stock {
      font-size: 22px;
      font-weight: bold;
@@ -46,9 +50,11 @@
    
    #buy:hover {
     background-color: var(--orangewhite) ;
+    font-size: 17px;
    }
    #cart:hover {
     background-color: var(--yellowhite) ;
+    font-size: 17px;
    }
 
    #buy {
